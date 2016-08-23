@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie tickets</title>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+    <h1>Sky High Cinemas</h1>
+  </div>
+      <h2>
+        Movies showing now!
+      </h2>
+      <form>
+      <div class="movie1">
+        <h3>Cheech and Chong</h3>
+        <img src="img/cheechandchong.jpg" alt="cheech and chong yo" width="50%" />
+      </div>
+      <div class="movie2">
+        <h3>Pineapple Express</h3>
+        <img src="img/express.jpeg" alt="pineapple express" />
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>movie</p>
+          <select class="form-control" id="movie">
+            <option>select</option>
+            <option>Cheech and Chong</option>
+            <option>Pineapple Express</option>
+          </select>
+          <p>age</p>
+          <select class="form-control" id="age">
+            <option>select</option>
+            <option>Seniors(+65) and Children(12 and under) </option>
+            <option>Adult</option>
+          </select>
+          <p>showtime</p>
+          <select class="form-control" id="showtime">
+            <option>select</option>
+            <option>2:00PM Matinee</option>
+            <option>7:00PM Evening</option>
+          </select>
+          <p>quality</p>
+          <select class="form-control" id="quality">
+            <option>select</option>
+            <option>IMAX 3D</option>
+            <option>Standard</option>
+          </select>
+
+          <button type="submit" id="submit" class="btn btn-danger" name="button">ENTER</button>
+          <h5></h5>
+
+        </div>
+      </div>
+    </div>
+
+    </form>
+
+  </body>
+</html>

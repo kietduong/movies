@@ -1,0 +1,54 @@
+img {
+  width: 50%;
+  clip: 0px 0px 30px 0px;
+}
+
+
+#movieForm {
+  text-align: center;
+}
+
+.container{
+
+  text-align: center;
+}
+
+
+p {
+  font-size: 2.3em;
+  font-weight: 900;
+  color: red;
+  text-align: center;
+}
+
+h2{
+  font-size: 6em;
+  text-align: center;
+  color: red;
+  text-shadow: 6px 6px grey;
+}
+
+h3{
+  font-size: 4em;
+  text-align: center;
+  color: red;
+  text-shadow: 2px 2px grey;
+}
+
+.jumbotron {
+  text-align: center;
+  color: red;
+  background-image: url("http://static1.squarespace.com/static/542bf3ebe4b091f86ebeaa66/t/542ca7a6e4b0bd52e649db04/1412212649533/Curtains-opening.jpg?format=2500w");
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h5{
+  font-size: 4em;
+  color: red;
+}
